@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan's SinglePlayer Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="B1.css">
+</head>
+<body>
+<script src="C1.js"></script>
+    <div id="main">
+        <h1>Welcome to Evan's SinglePlayer Tic Tac Toe Game!</h1>
+        <p id="ins">Enjoy playing this classic game! This is in singleplayer mode.</p>
+<div class="ui">
+        <div class="row"></div>
+            <input type="text" id="c1" class="cell" readonly onclick="mark('1')">
+            <input type="text" id="c2" class="cell" readonly onclick="mark('2')">
+            <input type="text" id="c3" class="cell" readonly onclick="mark('3')">
+        <div class="row"></div>
+            <input type="text" id="c4" class="cell" readonly onclick="mark('4')">
+            <input type="text" id="c5" class="cell" readonly onclick="mark('5')">
+            <input type="text" id="c6" class="cell" readonly onclick="mark('6')">
+        <div class="row"></div>
+            <input type="text" id="c7" class="cell" readonly onclick="mark('7')">
+            <input type="text" id="c8" class="cell" readonly onclick="mark('8')">
+            <input type="text" id="c9" class="cell" readonly onclick="mark('9')">
+        </div>
+    <div>
+        <button id="single"><a href="A.html">MultiPlayer Mode</a></button>
+        <button id="reset" onclick="reset()">Reset Game</button>
+        <button id="two"><a href="A1.html">SinglePlayer Mode</a></button>
+    </div>
+</div>
+
+</body>
+</html>
