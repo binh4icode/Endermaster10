@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    background-image: url("images/Minecraft.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-image: url("images/Oven.png");
+    border: 8px solid #795548;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.cookie {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    cursor: pointer;
+    animation: popIN 0.3s ease-out;
+}
+
+@keyframes popIn{
+    0% { transform:scale(0);}
+    100% {transform:scale(1);}
+}
+.golden {filter: drop-shadow(0 0 10px gold);}
